@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context="com.chatt.Login" >
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            tools:context="com.chatt.Login">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         android:paddingBottom="@dimen/pad_20dp"
         android:paddingLeft="@dimen/pad_15dp"
         android:paddingRight="@dimen/pad_15dp"
-        android:paddingTop="@dimen/pad_20dp" >
+        android:paddingTop="@dimen/pad_20dp">
 
         <EditText
             android:id="@+id/email"
@@ -23,9 +23,9 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_username"
             android:hint="@string/email"
-            android:inputType="textEmailAddress" >
+            android:inputType="textEmailAddress">
 
-            <requestFocus />
+            <requestFocus/>
         </EditText>
 
         <EditText
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/pad_5dp"
             android:drawableLeft="@drawable/ic_username"
-            android:hint="@string/username" >
+            android:hint="@string/username">
         </EditText>
 
         <EditText
@@ -47,14 +47,14 @@
             android:layout_marginTop="@dimen/pad_5dp"
             android:drawableLeft="@drawable/ic_pwd"
             android:hint="@string/password"
-            android:inputType="textPassword" >
+            android:inputType="textPassword">
         </EditText>
 
         <LinearLayout
             android:id="@+id/main"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnReg"
@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/pad_10dp"
                 android:layout_weight="1"
-                android:text="@string/register" />
+                android:text="@string/register"/>
         </LinearLayout>
     </LinearLayout>
 
